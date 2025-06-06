@@ -1,0 +1,89 @@
+body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+            user-select: none; /* جعل الصفحة غير قابلة للنسخ */
+            background-color: #f0f0f0;
+        }
+        .container {
+            width: 90%;
+            max-width: 600px;
+            margin: 20px;
+            padding: 20px;
+            border: 2px solid #007bff;
+            border-radius: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .container h1, .container h2 {
+        background-color: #4CAF50;
+    color: white;
+            color: #333333;
+            text-align: center;
+        }
+        .container label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .container input, .container textarea, .container button {
+            width: 97%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .container button {
+            background-color: #0056b3;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .container button:hover {
+            background-color: #26fffe;
+        }
+        .container #encryptedLink, .container #encryptedText, .container #decryptedText {
+            user-select: text; /* جعل الحقول قابلة للنسخ */
+        }
+        .decorations {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .decorations span {
+            font-size: 24px;
+            margin: 0 10px;
+        }
+        .announcement {
+            color: #333333;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    background-color: #06fffe;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+        }
+        .ad-container {
+            background-color: #e9ecef;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .ad {
+            display: none;
+        }
+        .hass {
+    color: #333333;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    background-color: #06fffe;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}

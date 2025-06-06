@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calculator multi-function</title>
+    <link rel="stylesheet" href="style3.css">
+         <link rel="icon" href="s1.png">
+     <meta name="description" content="Calculator multi-function.">
+</head>
+<body onload="checkRights()">
+    <header>
+        <h1>Calculator multi-function</h1>
+    </header>
+    
+    <main>
+        
+        <!-- Account of space -->
+        <section id="area-calculator">
+            <h2>Account of space</h2>
+            <input type="text"id="length" placeholder="Enter the length" oninput="formatAndCalculateArea()">
+            <input type="text" id="width" placeholder="Enter the the offer" oninput="formatAndCalculateArea()">
+            <input type="text" id="area-result" placeholder="Area"class="hg" disabled>
+        </section>
+
+        <!-- Account of space brick -->
+        <section id="benna-calculator">
+            <h2>Account of space brick</h2>
+            <input type="text" id="benna-length" placeholder="Length" oninput="formatAndCalculateBenna()">
+            <input type="text" id="benna-width" placeholder="Display" oninput="formatAndCalculateBenna()">
+            <input type="text" id="benna-result" placeholder="Area of building block"id="hg" disabled>
+        </section>
+        
+
+        <!-- Account for inheritance -->
+        <section id="inheritance-calculator">
+            <h2>Account for inheritance</h2>
+            <input type="text" id="total-assets" placeholder="Value of the total" oninput="formatAndCalculateInheritance()">
+            <input type="text" id="percentage" placeholder="The percentage of" oninput="formatAndCalculateInheritance()">
+            <input type="text" id="inheritance-result" placeholder="The resulting" id="hg"disabled>
+        </section>
+
+        <!-- The expense of the corners squares -->
+        <section id="geometry-calculator">
+            <h2>The expense of the corners squares</h2>
+            <input type="text" id="side" placeholder="Along the rib" oninput="formatAndCalculateSquare()">
+            <input type="text" id="square-result" placeholder="Area of the box"id="hg" disabled>
+        </section>
+
+   
+        
+        <!-- Calculator gold -->
+        <section id="gold-calculator">
+            <h2>Calculator gold</h2>
+            <input type="text" id="gold-weight" placeholder="The weight of gold by gram-" oninput="formatAndCalculateGoldValue()">
+            <input type="text" id="gold-price" placeholder="The price of gold's gram-" oninput="formatAndCalculateGoldValue()">
+            <input type="text" id="gold-value" placeholder="The value of gold" id="hg"disabled>
+        </section>
+        
+        <!-- Calculator silver -->
+        <section id="silver-calculator">
+            <h2>Calculator silver</h2>
+            <input type="text" id="silver-weight" placeholder="The weight of silver by gram-" oninput="formatAndCalculateSilverValue()">
+            <input type="text" id="silver-price" placeholder="The price of silver s gram-" oninput="formatAndCalculateSilverValue()">
+            <input type="text" id="silver-value" placeholder="The value of silver" id="hg"disabled>
+        </section>
+    </main>
+           <b>&#169;&#32;&#50;&#48;&#50;&#53;<br>&#65;&#108;&#108;&#32;&#114;&#105;&#103;&#104;&#116;&#115;&#32;&#114;&#101;&#115;&#101;&#114;&#118;&#101;&#100;&#32;&#116;&#111;&#32;&#116;&#104;&#101;&#32;&#112;&#114;&#111;&#103;&#114;&#97;&#109;&#109;&#101;&#114;<br>
+            <footer id="footer">&#65;&#108;&#45;&#72;&#97;&#115;&#115;&#97;&#110;&#32;&#65;&#108;&#45;&#68;&#97;&#98;&#97;&#97;</b>
+    </footer>
+    <script src="script3.js"></script>
+</body>
+</html>

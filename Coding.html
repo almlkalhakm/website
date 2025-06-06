@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Entity Converter</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="icon" href="s3.png">
+</head>
+<body onload="checkRights()">
+ <header>
+        <h1 class="hass">Conversion tool texts to symbols "HTML"</h1>
+    </header>
+    <main>
+        <section>
+            <textarea id="input-text"id="button" placeholder="Enter the text here ..." oninput="convertToHTMLEntity()" required></textarea>
+            <textarea id="output-text"placeholder="Text converter will be shown here ..." readonly></textarea>
+            <button onclick="copyToClipboard()">Copy the text encrypted</button>
+            <button onclick="clearInput()">Survey  text</button>
+        </section>
+    </main>
+    <br><br><br><br><br><br>
+    <div id="hass">
+        <b>&#169;&#32;&#50;&#48;&#50;&#53;<br>&#65;&#108;&#108;&#32;&#114;&#105;&#103;&#104;&#116;&#115;&#32;&#114;&#101;&#115;&#101;&#114;&#118;&#101;&#100;&#32;&#116;&#111;&#32;&#116;&#104;&#101;&#32;&#112;&#114;&#111;&#103;&#114;&#97;&#109;&#109;&#101;&#114;<br>
+            <footer id="footer">&#65;&#108;&#45;&#72;&#97;&#115;&#115;&#97;&#110;&#32;&#65;&#108;&#45;&#68;&#97;&#98;&#97;&#97;</b>
+    </footer>
+    </div>
+    <script src="script1.js"></script>
+</body>
+</html>

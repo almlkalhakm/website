@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tool encryption decrypt the links, text</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="icon" href="s2.png">
+</head>
+<body>
+    <div class="container">
+        <div class="announcement">
+            Type the encryption user: URL
+        </div>
+
+        <h1 class="hass">Tool encryption decrypt the links, text</h1>
+
+        <h2>Encryption links</h2>
+        <label for="baseUrl">Link to the main:</label>
+        <input type="text" id="baseUrl" placeholder="Enter the link basic here">
+        <label for="extraMessage">The message-in:</label>
+        <textarea id="extraMessage" rows="3" placeholder="Enter your message-in here"></textarea>
+        <button onclick="encryptLink()"><input class="outset"  type="button" value="Encrypt the link" onclick="alert('Thank you for your use of robot our hope to be useful to you');">
+</button>
+        <label for="encryptedLink">Link encrypted:</label>
+        <input type="text" id="encryptedLink" readonly>
+        <button onclick="copyToClipboard('encryptedLink')">Copy the link</button>
+            </div>
+            <br><br><br>
+        <div class="container">
+        <div class="announcement">
+            Type the encryption user: URL
+        </div>
+        <h2 class="hass">Encryption texts</h2>
+        <label for="textToEncrypt">Text to be encrypted:</label>
+        <textarea id="textToEncrypt" rows="3" placeholder="Enter the text hereا"></textarea>
+        <button onclick="encryptText()"><input class="outset"  type="button" value="Encryption text" onclick="alert('Thank you for your use of robot our hope to be useful to you');"></button>
+        <label for="encryptedText">Text is encrypted:</label>
+        <textarea id="encryptedText" rows="3" readonly></textarea>
+        <button onclick="copyToClipboard('encryptedText')">Copy the text</button>
+    </div>
+        <br><br><br>
+        <div class="container">
+        <div class="announcement">
+            Type the encryption user: URL
+        </div>
+        <h2 class="hass">Decrypt the texts</h2>
+        <label for="textToDecrypt">The text you want to set-top encrypted:</label>
+        <textarea id="textToDecrypt" rows="3" placeholder="Enter the text encrypted here"></textarea>
+        <button onclick="decryptText()"><input class="outset"  type="button" value="Decrypt the text" onclick="alert('Thank you for your use of robot our hope to be useful to you');"></button>
+        <label for="decryptedText">Text is open:</label>
+        <textarea id="decryptedText" rows="3" readonly></textarea>
+        <button onclick="copyToClipboard('decryptedText')">Copy the text is open</button>
+
+        <div class="ad-container">
+            <div class="ad">
+                <a href="https://wa.me/message/W6Q4TPB6HK7NP1" target="_blank">
+                    <img src="url" alt="">
+                </a>
+                <br>
+            </div>
+          
+    <br> 
+            </div>
+            <div class="ad">
+                <a href="https://whatsapp.com/channel/0029VazEAqE4yltNgFelOB0Y" target="_blank">
+                    <img src="url" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
